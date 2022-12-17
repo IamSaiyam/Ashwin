@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/idDb2"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:text="10000001"
+        android:padding="5dp"
+        android:background="@drawable/custom_border"
+        android:textColor="@color/white"
+        android:textSize="7sp" />
+
+    <TextView
+        android:id="@+id/fNameDb2"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:text="F_Name"
+        android:padding="5dp"
+        android:background="@drawable/custom_border"
+        android:textColor="@color/white"
+        android:textSize="7sp" />
+
+    <TextView
+        android:id="@+id/lNameDb2"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:text="L_Name"
+        android:padding="5dp"
+        android:background="@drawable/custom_border"
+        android:textColor="@color/white"
+        android:textSize="7sp" />
+
+    <TextView
+        android:id="@+id/dobDb2"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:text="DOB"
+        android:padding="5dp"
+        android:background="@drawable/custom_border"
+        android:textColor="@color/white"
+        android:textSize="7sp" />
+
+    <TextView
+        android:id="@+id/fatherDb2"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:text="Father"
+        android:padding="5dp"
+        android:background="@drawable/custom_border"
+        android:textColor="@color/white"
+        android:textSize="7sp" />
+
+    <TextView
+        android:id="@+id/addressDb2"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:text="City"
+        android:padding="5dp"
+        android:background="@drawable/custom_border"
+        android:textColor="@color/white"
+        android:textSize="7sp" />
+
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/similarity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Similarity Percent: "
+        android:padding="5dp"
+        android:background="@drawable/custom_border"
+        android:textColor="@color/white"
+        android:textSize="7sp" />
+
+
+</LinearLayout>
